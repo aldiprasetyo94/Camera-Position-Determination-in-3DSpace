@@ -3,16 +3,7 @@ import numpy as np
 import cmath
 import time
 
-print('\n--- National Taiwan University of Science and Technology ---')
-print('Name: 林超良 \t\t\t Department: Mechanical Engineering')
-print('Student ID: M10803001 \t Assignment: Hw3 Determine Camera Position Relative to World Coordinate')
-print('------------------------------------------------------------------------------------------------')
-
-
-
 img1 = cv2.imread('ChosenSquare.jpg')
-# cv2.cvtColor(img1,img1,cv2.COLOR_BGR2GRAY)
-
 
 #DEFINE THE COORDINATE OF CHECKBOARD IN REAL
 A_real = np.array([
